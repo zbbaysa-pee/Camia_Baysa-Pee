@@ -1,22 +1,59 @@
-# Activity 3: Finding the Hypotenuse of a Right Triangle Using the Math Library
+Problem Identification: Using a given radius, find out information about the school circular garden
 
-## Description
-This program will take  the values of two sides of a triangle and compute for the hypotenuse using them.
+Problem Decomposition: Calculate the area of the garden, then the circumference, then find the sqaure root of the area. After this, determine the area when rounded up and rounded down. Next, display the values with the area, circumference, and square root rounded to two decimal places.
 
-## How to Run
-Download the file, open it, then press the button to run the program, or Shift + F10. Then, enter the values asked of you.
+Pattern Recognition: Both the area and circumference calculations use pi and the radius.
 
-## Input Needed
-The only values needed to be entered are the lengths of the shorter sides of the triangle.
+Data Representation: The information should be represented in numbers, specifically numbers rounded to two decimal points except for the area rounded up and down, which are whole numbers.
 
-## Sample output
-Enter the length of side A: 6
+Algorithm Development: 
+Input radius
 
-Enter the length of side B: 8
+Calculate area with math.pi * math.pow(radius, 2)
 
-The hypotenuse is: 10.00
+Calculate circumference with 2 * math.pi * radius
 
-## Author
-Name: Ziva Zenith Victorious B. Baysa-Pee
+Calculate square root of the area with math.sqrt(area)
 
-Section: 8 - Camia
+Find the area rounded up with math.ceil(area)
+
+Find the area rounded down with math.floor(area)
+
+Display area rounded to two decimal places
+
+Display circumference rounded to two decimal places
+
+Display square root rounded to two decimal places
+
+Display area rounded down
+
+Display area rounded up
+
+# Project Title:
+This project is called: **Circular Garden Information Calculator**
+
+# Description:
+This proiject will use a given radius to find the circumference, area, square root of area, and area rounded up and down of the garden.
+
+# How To Run:
+Download the program, enter the required values, and press the run button.
+
+# Input Needed:
+The only input needed is the radius of the garden.
+
+# Sample output:
+Enter radius: 7
+
+Area of the garden: 153.94 square meters
+
+Circumference of the garden: 43.98 
+
+Square_root of the area: 12.41
+
+Area rounded down:  153 square meters
+
+Area rounded up:  154 square meters
+
+# Author/Section:
+Author: Ziva Zenith Victorious Baysa-Pee
+Section: 8-Camia
